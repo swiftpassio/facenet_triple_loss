@@ -30,4 +30,4 @@ root folder
 
 2. Use `align_dataset_mtcnn.py` to prepare our dataset for training. Run the following command:
 
-python align_dataset_mtcnn.py ./YOUR_DIRECTIORY_CONTAINING_DATA ./output_cropped
+python align_dataset_mtcnn.py ./images ./output_cropped
