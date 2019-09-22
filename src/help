@@ -3,7 +3,7 @@ Virtula Env
 window: https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/
 
 1. lign_dataset using mtcnn
- >> align_dataset_mtcnn.py ./images ./cropped
+ >> python  align_dataset_mtcnn.py ./images ./cropped
 2. Trained the model using above cropped dataset
  >> train_triplet.py
 
