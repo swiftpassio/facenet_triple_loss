@@ -7,7 +7,7 @@ window: https://www.geeksforgeeks.org/creating-python-virtual-environment-window
 2. Trained the model using above cropped dataset
  >> train_triplet.py
 
-3. Test usign web came data
+
 
 
 PACKAGES INSTALLED
