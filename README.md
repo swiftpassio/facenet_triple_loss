@@ -4,6 +4,7 @@ HOW TO RUN
 0. change the direcotry to Samir and run below command
 
      cd /home/Samir/Samir
+    
      source myenv/bin/activat
 
 1. lign_dataset using mtcnn
