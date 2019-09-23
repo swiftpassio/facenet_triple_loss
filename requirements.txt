@@ -1,0 +1,12 @@
+pandas
+matplotlib
+scipy
+tensorflow
+sklearn
+opencv-python
+opencv-python
+numpy==1.16.2
+Pillow
+scipy==1.1.0
+keras
+imutils
