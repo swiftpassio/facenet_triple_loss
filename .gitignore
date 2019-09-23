@@ -1,0 +1,5 @@
+venv/*
+cropped/
+src/cropped/
+__pycache__/
+path_dict.p
