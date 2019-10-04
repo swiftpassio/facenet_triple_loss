@@ -1,5 +1,26 @@
 #### PART OF THIS CODE IS USING CODE FROM VICTOR SY WANG: https://github.com/iwantooxxoox/Keras-OpenFace/blob/master/utils.py ####
+'''
+  fr_util.py: This file contains all the utility function for face recognization (fr_util.py). This file contains all the weights which is required to inititalize the CNN model.  
+  
+Why Weight : 
+------------
+ Rather than taking random weight , We are planning to take weight which is fesible to the face recognization . So from the openFace model I have use the weightto initialize same for our model.  The Openface model is test on 2.7 and it is tested for all conbination of weights , after that it came up with final weights which is recomended to use.
+  
+  BatchNormalization : this method use to standardise the face to common face  and it return tensor object
 
+  Activation : Currently I am using relu(rectified linear unit) activation fucntion but we can choose any activation.
+
+Why I used RELU:
+-------------------
+
+  Relu varries from -Range: [ 0 to infinity) The function and its derivative both are monotonic.  
+   If you take our use case either we need to recognize face or not it means 0/1 which is given by relu. 
+   
+load_weights() : This funxtion is used to initialize weights to the network
+
+load_dataset() : this testing function I have put to test after generating the model.  (We will be using during the test) currently ignore this . I kept here becauise it is utility file
+
+'''
 import tensorflow as tf
 import numpy as np
 import os

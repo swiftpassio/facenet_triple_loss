@@ -1,3 +1,18 @@
+'''
+  Inception: Different embedding networks, triplet loss is the paper main focus on six embedding networks like below
+  1. NN1
+  2. NN2 -- Inception 224X224 Network
+  3. NN3 
+  4. NN4
+  5. NNS1
+  6. NNS2
+  
+  So this file is having inplimenttation of inception block code which will classifier training of inception resnet v1 .
+  Inception-Resnet-v1 solves the convergence problem and results in significantly improved performance on LFW, both looking at the accuracy and the validation rate. 
+  
+  The faceRecoModel() -- Function will take keras shape and convert into Tensor  
+  
+'''
 import tensorflow as tf
 import numpy as np
 import os
