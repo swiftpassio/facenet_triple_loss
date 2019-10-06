@@ -1,1 +1,1 @@
-./checkpoints/1569777463/facenet_3.h5
+./checkpoints/1570340075/facenet_3.h5
