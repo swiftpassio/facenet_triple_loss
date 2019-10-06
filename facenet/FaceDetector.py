@@ -1,7 +1,7 @@
 import cv2
 
 # HaarCascade Face Detector
-class faceDetector: 
+class FaceDetector: 
     
     def __init__(self, path):
         self.faceCascade = cv2.CascadeClassifier(path)
