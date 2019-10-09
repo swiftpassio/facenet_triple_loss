@@ -1,7 +1,7 @@
 import os
 
-if os.path.exists("./cropped1")==False:
-    os.makedirs("./cropped1")
+if os.path.exists("./cropped")==False:
+    os.makedirs("./cropped")
 
 ALPHA = 0.5
 THRESHOLD = 0.5

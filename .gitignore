@@ -1,5 +1,8 @@
 venv/*
 cropped/
-src/cropped/
+facenet/cropped/
 __pycache__/
 path_dict.p
+facenet/images
+facenet/weights
+facenet/checkpoints
